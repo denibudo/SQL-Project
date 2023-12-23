@@ -2,7 +2,7 @@ SELECT *
 FROM [Portfolio Project].dbo.CovidDeaths
 ORDER BY date
 
---Select Data I am going to using
+--Select Data I am going to use
 
 SELECT location, date, total_cases, new_cases, total_deaths, population
 FROM [Portfolio Project].dbo.CovidDeaths 
